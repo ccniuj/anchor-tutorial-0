@@ -1,0 +1,16 @@
+[package]
+description = "Created with Anchor"
+edition = "2018"
+name = "basic-0"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "basic_0"
+
+[features]
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+
+[dependencies]
+anchor-lang = "0.13.2"
